@@ -17,19 +17,9 @@ Synchronization can be observed in our daily lives, and one example would be the
 
 **2. Technical description of your system** 
 
-To properly study and simulate the synchronization of 2 pendulums, we set up the following test condition as shown below and define the critical masses and distances. The main platform with the 2 pendulums rests on 2 identical cans, which sit on the ground. The 2 pendulums oscillate by their independent angles ![img](file:///C:/Users/tongh/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png).
+To properly study and simulate the synchronization of 2 pendulums, we set up the following test condition as shown below and define the critical masses and distances. The main platform with the 2 pendulums rests on 2 identical cans, which sit on the ground. The 2 pendulums oscillate by their independent angles 
 
-![Diagram  Description automatically generated](file:///C:/Users/tongh/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png)
-
-![img](file:///C:/Users/tongh/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png)
-
-![img](file:///C:/Users/tongh/AppData/Local/Temp/msohtmlclip1/01/clip_image008.png)
-
-![img](file:///C:/Users/tongh/AppData/Local/Temp/msohtmlclip1/01/clip_image010.png)
-
-![img](file:///C:/Users/tongh/AppData/Local/Temp/msohtmlclip1/01/clip_image012.png)
-
- 
+![System_diagram](./System_diagram.png)
 
 **3. Mathematical model** 
 
@@ -43,8 +33,8 @@ With these assumptions, we can solve for the equations of motion for the system 
 
 The system has 3 degrees of freedom, which are the 2 independent oscillations of the platform and the horizontal displacement of the platform. Thus, the generalised coordinates are: θ, ϕ and x, as shown in the above figure. 
 
-![KE_PE](.\KE_PE.png)
+![KE_PE](./KE_PE.png)
 
-![Lag_eqn](.\Lag_eqn.png)
+![Lag_eqn](./Lag_eqn.png)
 
 Try out the code to code to find out how the pendulum reacts over time! Enjoy!
